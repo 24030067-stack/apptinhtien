@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 st.set_page_config(page_title="Order Nhà Hàng", layout="wide")
 
-st.title("🍽️ Hệ thống Order Nhà Hàng - Nguyễn Thị Ngọc Hà 24030067")
+st.title("🍽️ Hệ thống Order Nhà Hàng - Lê Thị Thanh Mai 24030077")
 
 # ==========================
 # Khởi tạo dữ liệu
@@ -22,9 +22,9 @@ menu = {
     "Đồ ăn": {
         "Pizza Hải Sản": 120000,
         "Mì Ý Bò Bằm": 50000,
-        "Burger Gà ò ó oooo": 65000,
+        "Burger Gà": 65000,
         "Salad Trộn": 50000,
-        "Bít tết Bò Mỹ Phước": 250000,
+        "Bít tết Bò Mỹ": 250000,
         "Sườn nướng BBQ": 180000,
         "Cánh gà chiên giòn": 75000,
         "Lẩu tình yêu anh dành cho em": 52000000,
@@ -33,7 +33,7 @@ menu = {
     },
     "Thức uống": {
         "Coca Cola": 20000,
-        "ip Duoooo": 1000000000,
+        "Nước uống ngon": 1000000000,
         "playy toghether": 3500000,
         "Matcha latte": 5000000,
         "Nước Suối Tiên": 10000,
